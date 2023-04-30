@@ -1,0 +1,220 @@
+body{
+  background-size: 20px 20px;
+  background-image: linear-gradient(90deg, #3d3d3d 1px, transparent 0px), linear-gradient(#3d3d3d 1px, transparent 0px); 
+  background-color: #292929;
+  color: whitesmoke;
+}
+
+.fixed-email{
+  position: fixed;
+  top: 500px;
+  right: 20px;
+  transform: rotate(90deg); /* rotates the text 90 degrees */
+}
+
+.fixed-logo{
+  position: fixed;
+  top: 500px;
+  left: 20px;
+  transform: rotate(270deg); /* rotates the text 90 degrees */
+}
+
+#resume{
+  border: 3px solid whitesmoke;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#resume:hover{
+  border: 2px solid #555;
+  box-shadow: 10px 10px 2px rgb(78, 78, 78);
+}
+
+.navbar{
+  height:100px;
+  padding :20px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.menu-btn {
+  margin: 10px;
+  padding: 20px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mainitems {
+  padding: 2px;
+}
+
+
+.hero {
+  width:90%;
+}
+
+.main-header{
+  margin-left: 15vh;
+}
+
+.header1{
+  margin-top: 100px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.header2{
+  margin-top: 10px;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.header3{
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header4{
+  margin-top: 10px;
+  line-height: 22px;
+  font-size: small;
+  font-weight: 200;
+}
+
+.header5{
+  margin-top: 30px;
+}
+
+.checkout{
+  border: 3px solid whitesmoke;
+  padding : 8px;
+  border-radius: 5px;
+}
+
+.about{
+  margin-top: 35vh;
+  margin-left: 30vh;
+  height: 100vh;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.about-heading{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.about-content{
+  margin-top: 10px;
+  line-height: 22px;
+  font-size: small;
+  font-weight: 200;
+  display: flex;
+}
+
+.about-content > div{
+  width: 50%;
+}
+
+.profilepic{
+  margin-top: 10px;
+  margin-right: 5px;
+  background-image: url("nanami.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 20px;
+}
+
+.experience{
+  margin-top: 12vh;
+  margin-left: 35vh;
+  height: 100vh;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.experience-heading{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.experience-content{
+  margin-top: 10px;
+  line-height: 22px;
+  width: 80%;
+  font-size: small;
+  font-weight: 200;
+  display: flex;
+}
+
+.experience-accordion{
+  width:90%;
+  cursor: pointer;
+}
+
+.experience-accordion > div{
+  font-weight: bold;
+  height: 25%;
+}
+
+.experience-accordion-content{
+  line-height: 22px;
+}
+
+.work{
+  margin-top: 12vh;
+  margin-left: 30vh;
+  height: 100vh;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.work-heading{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.work-content{
+  margin-top: 10px;
+  line-height: 22px;
+  width: 70%;
+  font-size: small;
+  font-weight: 200;
+  display: flex;
+}
+
+.contact{
+  margin-top: 12vh;
+  margin-left: 37vh;
+  height: 100vh;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.contact-heading{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.contact-content{
+  margin-top: 10px;
+  line-height: 22px;
+  width: 70%;
+  font-size: small;
+  font-weight: 200;
+  display: flex;
+}
