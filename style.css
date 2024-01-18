@@ -5,19 +5,6 @@ body{
   color: whitesmoke;
 }
 
-.fixed-email{
-  position: fixed;
-  top: 500px;
-  right: 20px;
-  transform: rotate(90deg); /* rotates the text 90 degrees */
-}
-
-.fixed-logo{
-  position: fixed;
-  top: 500px;
-  left: 20px;
-  transform: rotate(270deg); /* rotates the text 90 degrees */
-}
 
 #resume{
   border: 3px solid whitesmoke;
@@ -46,8 +33,8 @@ body{
 }
 
 .menu-btn {
-  margin: 10px;
-  padding: 20px;
+  margin: 0.7rem;
+  padding: 1rem;
   text-decoration: none;
   color: whitesmoke;
 }
@@ -106,22 +93,20 @@ body{
 }
 
 .about{
-  margin-top: 35vh;
-  margin-left: 30vh;
-  height: 100vh;
-  font-size: 70px;
+  margin-top: 20rem;
+  margin-left: 7rem;
   font-weight: bold;
 }
 
 .about-heading{
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: bold;
 }
 
 .about-content{
-  margin-top: 10px;
-  line-height: 22px;
-  font-size: small;
+  margin-top: 1rem;
+  line-height: 1.3rem;
+  font-size: 100;
   font-weight: 200;
   display: flex;
 }
@@ -140,81 +125,89 @@ body{
 }
 
 .experience{
-  margin-top: 12vh;
-  margin-left: 35vh;
-  height: 100vh;
-  font-size: 70px;
+  margin-top: 20rem;
+  margin-left: 7rem;
   font-weight: bold;
 }
 
 .experience-heading{
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: bold;
 }
 
 .experience-content{
-  margin-top: 10px;
-  line-height: 22px;
-  width: 80%;
-  font-size: small;
+  margin-top: 1rem;
+  line-height: 1.3rem;
+  font-size: 100;
   font-weight: 200;
   display: flex;
 }
 
 .experience-accordion{
-  width:90%;
+  width:40%;
   cursor: pointer;
 }
 
-.experience-accordion > div{
+.experience-accordion > div {
+  height: 3rem;
+  width: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
   font-weight: bold;
-  height: 25%;
+  margin-right: 5rem;
+  margin-bottom: 0.3rem;
+  border-radius: 3rem;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.4), rgba(200, 200, 200, 0.2));
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.experience-accordion-content{
-  line-height: 22px;
+.experience-accordion-content {
+  width: 99%;
 }
 
 .work{
-  margin-top: 12vh;
-  margin-left: 30vh;
-  height: 100vh;
-  font-size: 70px;
+  margin-top: 20rem;
+  margin-left: 7rem;
   font-weight: bold;
 }
 
 .work-heading{
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: bold;
 }
 
 .work-content{
-  margin-top: 10px;
-  line-height: 22px;
-  width: 70%;
-  font-size: small;
+  margin-top: 1rem;
+  line-height: 1.3rem;
+  font-size: 100;
   font-weight: 200;
   display: flex;
 }
 
 .contact{
-  margin-top: 12vh;
-  margin-left: 37vh;
-  height: 100vh;
-  font-size: 70px;
+  margin-top: 20rem;
+  margin-left: 7rem;
   font-weight: bold;
+  margin-bottom: 5rem;
 }
 
 .contact-heading{
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: bold;
 }
 
 .contact-content{
-  margin-top: 10px;
-  line-height: 22px;
-  width: 70%;
-  font-size: small;
+  margin-top: 1rem;
+  line-height: 1.3rem;
+  font-size: 100;
   font-weight: 200;
   display: flex;
+}
+
+.boldy {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
