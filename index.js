@@ -6,6 +6,8 @@ const mtech = document.getElementById("experience-accordion-mtech");
 const btech = document.getElementById("experience-accordion-btech");
 const enkinlab = document.getElementById("experience-accordion-enkinlab");
 const school = document.getElementById("experience-accordion-school");
+const resume = document.getElementById("resume");
+
 
 const contentmtechta = document.getElementById("experience-accordion-content-mtechta");
 const contetmtech = document.getElementById("experience-accordion-content-mtech");
@@ -13,6 +15,25 @@ const contettbtech = document.getElementById("experience-accordion-content-btech
 const contetenkinlab = document.getElementById("experience-accordion-content-enkinlab");
 const contetschool = document.getElementById("experience-accordion-content-school");
 
+resume.addEventListener("click", function() {
+    const pdfPath = 'newResume.pdf';
+
+    // Create an anchor element
+    const link = document.createElement('a');
+    link.href = pdfPath;
+
+    // Set the download attribute with the desired file name
+    link.download = 'NikhilGumasthiResume.pdf';
+
+    // Append the anchor to the body
+    document.body.appendChild(link);
+
+    // Trigger a click on the anchor to start the download
+    link.click();
+
+    // Remove the anchor from the body
+    document.body.removeChild(link);
+});
 
 mtechta.addEventListener("click", function() {
     contentmtechta.style.display = "block";
@@ -82,6 +103,15 @@ school.addEventListener("click", function() {
 document.getElementById("checkout").addEventListener("click", function() {
     // Redirect to the desired site
     window.location.href = "https://github.com/soapopera12";
+});
+
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    // Prevent the form from submitting and refreshing the page
+    event.preventDefault();
+    alert("Message sent");
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("message").value = "";
 });
 
 };

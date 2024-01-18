@@ -26,7 +26,7 @@ body{
   color: whitesmoke;
   border-radius: 3rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
-  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Add box-shadow to the transition */
+  transition: background-color 0.5s ease, box-shadow 0.5s ease; /* Add box-shadow to the transition */
 }
 
 .menu-btn:hover {
@@ -41,6 +41,8 @@ body{
   color: whitesmoke;
   border-radius: 5px;
   text-decoration: none;
+  cursor: pointer;
+  transition: box-shadow 0.5s ease; /* Add box-shadow to the transition */
 }
 
 #resume:hover{
@@ -56,7 +58,6 @@ body{
 .mainitems {
   padding: 2px;
 }
-
 
 .hero {
   width:90%;
@@ -101,7 +102,7 @@ body{
   border-radius: 5px;
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
-  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Add box-shadow to the transition */
+  transition: background-color 0.5s ease, box-shadow 0.5s ease; /* Add box-shadow to the transition */
 }
 
 .checkout:hover{
@@ -232,4 +233,28 @@ body{
 .redly {
   color: rgb(233, 228, 108);
   background-color: rgb(108, 79, 175);
+}
+
+
+form {
+  width: 90%;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
