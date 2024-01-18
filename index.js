@@ -79,4 +79,11 @@ school.addEventListener("click", function() {
     school.style.color = "dodgerblue";
 });
 
+document.getElementById("checkout").addEventListener("click", function() {
+    // Redirect to the desired site
+    window.location.href = "https://github.com/soapopera12";
+});
+
 };
+
+

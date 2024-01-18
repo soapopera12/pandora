@@ -39,8 +39,8 @@ body{
   border: 3px solid whitesmoke;
   padding: 0.5rem;
   color: whitesmoke;
-  text-decoration: none;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 #resume:hover{
@@ -99,6 +99,14 @@ body{
   border: 3px solid whitesmoke;
   padding : 8px;
   border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Add box-shadow to the transition */
+}
+
+.checkout:hover{
+  border: 2px solid #555;
+  box-shadow: 10px 10px 2px rgb(78, 78, 78);
 }
 
 .about{
@@ -221,6 +229,7 @@ body{
   font-weight: bold;
 }
 
-.nav logo {
-  
+.redly {
+  color: rgb(233, 228, 108);
+  background-color: rgb(108, 79, 175);
 }
