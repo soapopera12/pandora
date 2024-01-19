@@ -114,6 +114,24 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     document.getElementById("message").value = "";
 });
 
+
+var btn = document.getElementById('button'); 
+
+window.addEventListener('scroll', function() {
+  if (window.scrollY > 300) {
+    btn.classList.add('show');
+  } else {
+    btn.classList.remove('show');
+  }
+});
+
+btn.addEventListener('click', function(e) {
+  e.preventDefault();
+  document.documentElement.scrollTop = 0;
+  document.body.scrollTop = 0;
+});
+
+
 };
 
 
