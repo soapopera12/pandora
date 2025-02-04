@@ -22,6 +22,7 @@ body{
   visibility: hidden;
   z-index: 1000;
 }
+
 #button::after {
   content: "\f077";
   font-family: FontAwesome;
@@ -90,8 +91,9 @@ body{
 }
 
 .main {
-  display: flex;
-  justify-content: space-around;
+  width: 70%; /* Restricts the total width to 50% */
+  margin: 0 auto; /* Centers the content horizontally */
+  padding: 2px;
 }
 
 .mainitems {
@@ -99,7 +101,7 @@ body{
 }
 
 .hero {
-  width:90%;
+  width:100%;
 }
 
 .main-header{
