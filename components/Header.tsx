@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ThemeToggle from './ThemeToggle';
-import resumePdf from '../LatexResume.pdf';
+import resumePdf from '../LatexResume.pdf?url';
 
 const Logo: React.FC = () => (
     <a href="#hero" className="text-2xl font-bold tracking-wider text-gray-900 dark:text-gray-100 transition-colors duration-300 hover:text-blue-600 dark:hover:text-blue-500">

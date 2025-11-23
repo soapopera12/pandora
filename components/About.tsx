@@ -1,8 +1,7 @@
 import React from 'react';
-// Importing the image ensures Vite bundles it correctly.
-// NOTE: Ensure 'HPS_8698.JPG' is in the project root folder (same level as App.tsx).
-// If you moved it into the 'components' folder, change the path to './HPS_8698.JPG'.
-import profileImg from '../HPS_8698.JPG';
+// Importing with '?url' tells Vite to treat this as a static asset URL
+// rather than trying to parse the binary content as JavaScript code.
+import profileImg from '../HPS_8698.JPG?url';
 
 const SectionTitle: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-12 text-center">{children}</h2>

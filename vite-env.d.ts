@@ -39,6 +39,12 @@ declare module '*.pdf' {
   export default content;
 }
 
+// Support for ?url imports (fixes Vite parsing binary files as code)
+declare module '*?url' {
+  const content: string;
+  export default content;
+}
+
 interface ImportMetaEnv {
   readonly BASE_URL: string;
   readonly MODE: string;
