@@ -98,6 +98,6 @@ export const SKILLS: SkillCategory[] = [
 
 export const CONTACT_DETAILS = {
   email: 'nikhilgumasthi@gmail.com',
-  linkedin: 'https://www.linkedin.com/in/nikhil-gumasthi',
-  github: 'https://github.com/nikhilgumasthi'
+  linkedin: 'https://www.linkedin.com/in/nikhil-gumasthi-33718a235/',
+  github: 'https://github.com/soapopera12'
 };
