@@ -9,8 +9,8 @@ const Hero: React.FC = () => {
       <div className="absolute -bottom-8 left-1/4 w-96 h-96 bg-sky-200 rounded-full mix-blend-multiply filter blur-3xl opacity-40 dark:opacity-20 animate-blob animation-delay-4000"></div>
 
       <div className="max-w-3xl z-10">
-        <h1 className="text-10xl md:text-7xl font-bold text-gray-900 dark:text-gray-100 mb-4 tracking-tight leading-tight animate-fade-in-down">
-          Moshi Moshi...
+        <h1 className="text-10xl md:text-8xl font-bold text-gray-900 dark:text-gray-100 mb-4 tracking-tight leading-tight animate-fade-in-down">
+          Konnichiwa...
         </h1>
         <h2 className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-2 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
           I am Nikhil Gumasthi.
